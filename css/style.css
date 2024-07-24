@@ -1,4 +1,12 @@
-
+@font-face {
+    font-family: "Albula Pro Bold";
+    src: url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.eot");
+    src: url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/05f0e1dbaed57d21990a797dfdbf331c.svg#Albula Pro Bold")format("svg");
+}
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
