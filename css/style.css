@@ -1110,6 +1110,9 @@
 .contact .contact-form .form-floating label {
     color: var(--bs-light);
 }
+.contact-icon-color{
+    color: var(--bs-primary);
+}
 
 
 
