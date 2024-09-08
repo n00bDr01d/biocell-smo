@@ -11,10 +11,14 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
     <!-- Libraries Stylesheet -->
@@ -29,57 +33,66 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-            <div class="row gx-0 align-items-center Topbar-height">
-                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
-                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Av. Cañoto esquina Mario Flores 700A 2do piso</a>
-                        <a href="#" class="text-light me-4"><i class="fas fa-phone text-primary me-2"></i>3-3521311</a>
-                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>smbiocell@cotas.com.bo</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <a href="https://api.whatsapp.com/send/?phone=78004706" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100066758516455" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/laboratorios_biocell" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
-                        
-                    </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center Topbar-height">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Av.
+                        Cañoto esquina Mario Flores 700A 2do piso</a>
+                    <a href="#" class="text-light me-4"><i class="fas fa-phone text-primary me-2"></i>3-3521311</a>
+                    <a href="#" class="text-light me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>smbiocell@cotas.com.bo</a>
                 </div>
             </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="https://api.whatsapp.com/send/?phone=78004706"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100066758516455"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/laboratorios_biocell"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-instagram"></i></a>
+
+                </div>
+            </div>
         </div>
-        <!-- Topbar End -->
+    </div>
+    <!-- Topbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class=""></i></h1>
-                    <img src="img/logo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link active">Nosotros</a>
-                        <a href="service.html" class="nav-item nav-link">Servicios médicos ocupacionales</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                       <!--  <div class="nav-item dropdown">
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><i class=""></i></h1>
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link active">Nosotros</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios médicos ocupacionales</a>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    <!--  <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="appointment.html" class="dropdown-item">Appointment</a>
@@ -89,318 +102,347 @@
                                 <a href= º"testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>-->
-                        </div>
-                        
-                    </div>
                 </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+
+            </div>
+    </div>
+    </nav>
+    </div>
+    <!-- Navbar End -->
 
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nosotros</h1>
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb-about">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nosotros</h1>
                 <!--<ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active text-primary">About</li>
-                </ol>-->  
-            </div>
+                </ol>-->
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 
 
-        <!-- About Start -->
-        <div class="container-fluid about bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="about-img pb-5 ps-5">
-                            <img src="img/about-1.jpg" class="img-fluid rounded w-100" style="object-fit: cover;" alt="Image">
-                            <div class="about-img-inner">
-                                <img src="img/about-2.jpg" class="img-fluid rounded-circle w-100 h-100" alt="Image">
-                            </div>
-                            <!-- <div class="about-experience">15 years experience</div> -->
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img pb-5 ps-5">
+                        <img src="img/about-1.jpg" class="img-fluid rounded w-100" style="object-fit: cover;"
+                            alt="Image">
+                        <div class="about-img-inner">
+                            <img src="img/about-2.jpg" class="img-fluid rounded-circle w-100 h-100" alt="Image">
                         </div>
+                        <!-- <div class="about-experience">15 years experience</div> -->
                     </div>
-                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
-                        <div class="section-title text-start mb-5">
-                            <h4 class="sub-title pe-3 mb-0">Nosotros</h4>
-                            <h1 class="display-3 mb-4">Conoce a nuestra familia.</h1>
-                            <p class="mb-4">Fundada el 26/02/2015, Servicios Médicos Ocupacional Biocell ha sido un pionero en la promoción de la salud y seguridad en el entorno laboral. Desde nuestros humildes comienzos como una pequeña clínica de salud ocupacional, hemos crecido y evolucionado para convertirnos en un referente en la industria, ofreciendo una amplia gama de servicios de salud ocupacional a empresas de todos los tamaños. Nuestro compromiso con la excelencia y la innovación nos ha permitido establecer relaciones duraderas con nuestros clientes y adaptarnos continuamente a las necesidades cambiantes del mercado laboral</p>
-                           <!-- <div class="mb-4">
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">Nosotros</h4>
+                        <h1 class="display-3 mb-4">Conoce a nuestra familia.</h1>
+                        <p class="mb-4">Fundada el 26/02/2015, Servicios Médicos Ocupacional Biocell ha sido un pionero
+                            en la promoción de la salud y seguridad en el entorno laboral. Desde nuestros humildes
+                            comienzos como una pequeña clínica de salud ocupacional, hemos crecido y evolucionado para
+                            convertirnos en un referente en la industria, ofreciendo una amplia gama de servicios de
+                            salud ocupacional a empresas de todos los tamaños. Nuestro compromiso con la excelencia y la
+                            innovación nos ha permitido establecer relaciones duraderas con nuestros clientes y
+                            adaptarnos continuamente a las necesidades cambiantes del mercado laboral</p>
+                        <!-- <div class="mb-4">
                                 <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Refresing to get such a personal touch.</p>
                                 <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Duis aute irure dolor in reprehenderit in voluptate.</p>
                                 <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <section class="container py-5">
+        <div class="container-fluid">
+            <div class="row align-items-center gx-4">
+                <div class="col-md-5">
+                    <div class="ms-md-2 ms-lg-5"><img class="img-fluid rounded-3" src="img/MISION.jpg"></div>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <div class="ms-md-2 ms-lg-5">
+                        <span class="text-muted">Conoce nuestra</span>
+                        <h2 class="display-5 fw-bold">Misión</h2>
+                        <p class="lead">Proporcionar servicios de
+                            salud ocupacional de la más alta calidad para proteger y mejorar la salud y el bienestar de
+                            los trabajadores. Nos esforzamos por crear entornos laborales seguros y saludables, ayudando
+                            a las empresas a cumplir con las normativas legales y a fomentar una cultura
+                            de prevención. A través de un enfoque centrado en el paciente y el cliente, buscamos ser
+                            el socio confiable en la gestión de la salud ocupacional, contribuyendo al éxito y
+                            sostenibilidad de las organizaciones que servimos.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="container-fluid">
+            <div class="row gx-4 align-items-center justify-content-between">
+                <div class="col-md-5 order-2 order-md-1">
+                    <div class="mt-5 mt-md-0">
+                        <span class="text-muted">Conoce nuestra</span>
+                        <h2 class="display-5 fw-bold">Visión</h2>
+                        <p class="lead">Nuestra visión es ser líderes en el ámbito de la salud ocupacional, reconocidos
+                            por
+                            nuestra excelencia, innovación y compromiso con la seguridad y bienestar de los
+                            trabajadores. Aspiramos a establecer un estándar de referencia en la
+                            industria,proporcionando soluciones integrales y personalizadas que anticipen y respondan a
+                            los
+                            desafíos de la salud laboral. Nos vemos como un agente de cambio positivo,
+                            promoviendo prácticas laborales seguras y saludables que beneficien a las empresas, a
+                            sus empleados y a la sociedad en general</p>
+                    </div>
+                </div>
+                <div class="col-md-5 order-1 order-md-2"><img class="img-fluid rounded-3" src="img/VISIÓN .jpg"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container py-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center text-center mb-3">
+                <div class="col-lg-8 col-xl-7">
+                    <span class="text-muted">Conoce nuestros </span>
+                    <h2 class="display-5 fw-bold">Valores</h2>
+                    <p class="lead">-</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row g-4 g-md-5">
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Compromiso con la Calidad</h5>
+                                    <p>Nos dedicamos a ofrecer servicios de salud
+                                        ocupacional de la más alta calidad, superando continuamente las expectativas de
+                                        nuestros clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Innovación</h5>
+                                    <p>Valoramos la creatividad y la innovación, buscando
+                                        constantemente nuevas formas de mejorar nuestros servicios y adaptarnos a las
+                                        necesidades cambiantes del entorno laboral.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                        <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Integridad</h5>
+                                    <p>Actuamos con transparencia, ética y responsabilidad en todas
+                                        nuestras interacciones, construyendo confianza y respeto mutuo con nuestros
+                                        clientes y empleados.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-person-badge-fill" viewBox="0 0 16 16">
+                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Centrados en el cliente</h5>
+                                    <p>Ponemos a nuestros clientes y sus necesidades en el
+                                        centro de todo lo que hacemos, proporcionando soluciones personalizadas y un
+                                        servicio excepcional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Trabajo en Equipo</h5>
+                                    <p>Fomentamos un ambiente de colaboración y apoyo mutuo,
+                                        reconociendo que el trabajo en equipo es esencial para alcanzar nuestros
+                                        objetivos y brindar el mejor servicio posible</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-shield-fill" viewBox="0 0 16 16">
+                                        <path d="M5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Seguridad y Prevención</h5>
+                                    <p>Creemos firmemente en la importancia de la
+                                        prevención y la seguridad, trabajando proactivamente para identificar y mitigar
+                                        riesgos en el lugar de trabajo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Responsabilidad Social</h5>
+                                    <p>Estamos comprometidos con el bienestar de la
+                                        comunidad y el medio ambiente, promoviendo prácticas sostenibles y
+                                        contribuyendo positivamente a la sociedad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <div class="text-primary me-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                                      </svg>
+                                </div>
+                                <div>
+                                    <h5 class="mb-2 mb-lg-4 fw-bold">Desarrollo Continuo</h5>
+                                    <p>Valoramos el aprendizaje y el desarrollo continuo,
+                                        invirtiendo en la capacitación y crecimiento de nuestro equipo para mantenernos
+                                        a la vanguardia en el campo de la salud ocupacional</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </section>
 
-        <section class="container py-5">
-            <div class="container-fluid">
-                <div class="row align-items-center gx-4">
-                    <div class="col-md-5">
-                        <div class="ms-md-2 ms-lg-5"><img class="img-fluid rounded-3" src="img/MISION.jpg"></div>
-                    </div>
-                    <div class="col-md-6 offset-md-1">
-                        <div class="ms-md-2 ms-lg-5">
-                            <span class="text-muted">Conoce nuestra</span>
-                            <h2 class="display-5 fw-bold">Misión</h2>
-                            <p class="lead">Proporcionar servicios de
-                                salud ocupacional de la más alta calidad para proteger y mejorar la salud y el bienestar de los trabajadores. Nos esforzamos por crear entornos laborales seguros y saludables, ayudando a las empresas a cumplir con las normativas legales y a fomentar una cultura
-                                de prevención. A través de un enfoque centrado en el paciente y el cliente, buscamos ser 
-                                el socio confiable en la gestión de la salud ocupacional, contribuyendo al éxito y
-                                sostenibilidad de las organizaciones que servimos.</p>
-                            
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>BIO-CELL</h4>
+                        <p>Servicios médicos ocupacionales
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.facebook.com/profile.php?id=100066758516455"><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.instagram.com/laboratorios_biocell"><i
+                                    class="fab fa-instagram"></i></a>
+
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="container py-5">
-            <div class="container-fluid">
-                <div class="row gx-4 align-items-center justify-content-between">
-                    <div class="col-md-5 order-2 order-md-1">
-                        <div class="mt-5 mt-md-0">
-                            <span class="text-muted">Conoce nuestra</span>
-                            <h2 class="display-5 fw-bold">Visión</h2>
-                            <p class="lead">Nuestra visión es ser líderes en el ámbito de la salud ocupacional, reconocidos por
-                                nuestra excelencia, innovación y compromiso con la seguridad y bienestar de los
-                                trabajadores. Aspiramos a establecer un estándar de referencia en la industria,proporcionando soluciones integrales y personalizadas que anticipen y respondan a los
-                                desafíos de la salud laboral. Nos vemos como un agente de cambio positivo,
-                                promoviendo prácticas laborales seguras y saludables que beneficien a las empresas, a
-                                sus empleados y a la sociedad en general</p>
-                        </div>
-                    </div>
-                    <div class="col-md-5 order-1 order-md-2"><img class="img-fluid rounded-3" src="img/VISIÓN .jpg"></div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="container py-5">
-            <div class="container-fluid">
-                <div class="row justify-content-center text-center mb-3">
-                    <div class="col-lg-8 col-xl-7">
-                        <span class="text-muted">Conoce nuestros </span>
-                        <h2 class="display-5 fw-bold">Valores</h2>
-                        <p class="lead">-</p>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Enlaces</h4>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contacto</a>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="row g-4 g-md-5">
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Compromiso con la Calidad</h5>
-                                        <p>Nos dedicamos a ofrecer servicios de salud
-                                            ocupacional de la más alta calidad, superando continuamente las expectativas de
-                                            nuestros clientes.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Innovación</h5>
-                                        <p>Valoramos la creatividad y la innovación, buscando
-                                            constantemente nuevas formas de mejorar nuestros servicios y adaptarnos a las
-                                            necesidades cambiantes del entorno laboral.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Integridad</h5>
-                                        <p>Actuamos con transparencia, ética y responsabilidad en todas
-                                            nuestras interacciones, construyendo confianza y respeto mutuo con nuestros
-                                            clientes y empleados.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Centrados en el cliente</h5>
-                                        <p>Ponemos a nuestros clientes y sus necesidades en el
-                                            centro de todo lo que hacemos, proporcionando soluciones personalizadas y un
-                                            servicio excepcional.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Trabajo en Equipo</h5>
-                                        <p>Fomentamos un ambiente de colaboración y apoyo mutuo,
-                                            reconociendo que el trabajo en equipo es esencial para alcanzar nuestros
-                                            objetivos y brindar el mejor servicio posible</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Seguridad y Prevención</h5>
-                                        <p>Creemos firmemente en la importancia de la
-                                            prevención y la seguridad, trabajando proactivamente para identificar y mitigar
-                                            riesgos en el lugar de trabajo.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Responsabilidad Social</h5>
-                                        <p>Estamos comprometidos con el bienestar de la
-                                            comunidad y el medio ambiente, promoviendo prácticas sostenibles y
-                                            contribuyendo positivamente a la sociedad.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="text-primary me-4">
-                                        <svg class="bi bi-question-circle-fill" fill="currentColor" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-2 mb-lg-4 fw-bold">Desarrollo Continuo</h5>
-                                        <p>Valoramos el aprendizaje y el desarrollo continuo,
-                                            invirtiendo en la capacitación y crecimiento de nuestro equipo para mantenernos
-                                            a la vanguardia en el campo de la salud ocupacional</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Servicios</h4>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Exámenes Médicos
+                            Ocupacionales</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Exámenes Complementarios</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Valoraciones por Especialidad</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> OTRAS PRUEBAS</a>
+
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>BIO-CELL</h4>
-                            <p>Servicios médicos ocupacionales
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-white me-2"></i>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/profile.php?id=100066758516455"><i class="fab fa-facebook-f"></i></a>
-                                
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/laboratorios_biocell"><i class="fab fa-instagram"></i></a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Enlaces</h4>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Servicios</a>
-                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contacto</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Servicios</h4>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Exámenes Médicos Ocupacionales</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Exámenes Complementarios</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Valoraciones por Especialidad</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> OTRAS PRUEBAS</a>
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Contact Info</h4>
-                            <a href="https://maps.app.goo.gl/df8goTWRMmpb67wk8"><i class="fa fa-map-marker-alt me-2"></i> Av. Cañoto esquina Mario Flores 700A 2do piso / 1er Anillo </a>
-                            <a href="mailto:smbiocell@cotas.com.bo"><i class="fas fa-envelope me-2"></i>smbiocell@cotas.com.bo</a>
-                            <a href="tel:33521311"><i class="fas fa-phone me-2"></i> 3-3521311 </a>
-                            <a href="https://api.whatsapp.com/send/?phone=78004706" class="mb-3"><i class="fas bi-whatsapp me-2"></i> +591 78004706</a>
-                        </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Contact Info</h4>
+                        <a href="https://maps.app.goo.gl/df8goTWRMmpb67wk8"><i class="fa fa-map-marker-alt me-2"></i>
+                            Av. Cañoto esquina Mario Flores 700A 2do piso / 1er Anillo </a>
+                        <a href="mailto:smbiocell@cotas.com.bo"><i
+                                class="fas fa-envelope me-2"></i>smbiocell@cotas.com.bo</a>
+                        <a href="tel:33521311"><i class="fas fa-phone me-2"></i> 3-3521311 </a>
+                        <a href="https://api.whatsapp.com/send/?phone=78004706" class="mb-3"><i
+                                class="fas bi-whatsapp me-2"></i> +591 78004706</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>BIO-CELL</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        Designed By <a class="border-bottom" href="">Saru producciones</a>
-                    </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>BIO-CELL</a>,
+                        All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Designed By <a class="border-bottom" href="">Saru producciones</a>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
+    <!-- Copyright End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        
-    </body>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
 
 </html>
