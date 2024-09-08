@@ -391,6 +391,9 @@
     .header-carousel .owl-nav .owl-next {
         top: 630px;
         transition: 0.5s;
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
     }
 
     .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
